@@ -1112,6 +1112,7 @@ We recognize all types of contributions. This project follows the [all-contribut
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/webermayank"><img src="https://avatars.githubusercontent.com/u/111176033?v=4?s=120" width="120px;" alt="Mayank Verma"/><br /><sub><b>Mayank Verma</b></sub></a><br /><a href="https://github.com/processing/p5.js/commits?author=webermayank" title="Code">💻</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/HritvikBhatia"><img src="https://avatars.githubusercontent.com/u/149999573?v=4?s=120" width="120px;" alt="H_Vik"/><br /><sub><b>H_Vik</b></sub></a><br /><a href="#translation-HritvikBhatia" title="Translation">🌍</a> <a href="https://github.com/processing/p5.js/issues?q=author%3AHritvikBhatia" title="Bug reports">🐛</a> <a href="https://github.com/processing/p5.js/commits?author=HritvikBhatia" title="Code">💻</a></td>
     </tr>
   </tbody>
 </table>
