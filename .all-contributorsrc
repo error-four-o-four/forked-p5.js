@@ -6701,6 +6701,17 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "HritvikBhatia",
+      "name": "H_Vik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/149999573?v=4",
+      "profile": "https://github.com/HritvikBhatia",
+      "contributions": [
+        "translation",
+        "bug",
+        "code"
+      ]
     }
   ],
   "repoType": "github",
