@@ -1,7 +1,7 @@
 {
   "name": "p5",
   "repository": "processing/p5.js",
-  "main": "lib/p5.js",
+  "main": "./lib/p5.js",
   "scripts": {
     "build": "rollup -c",
     "dev": "vite preview/",
