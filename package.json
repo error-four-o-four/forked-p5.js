@@ -68,7 +68,7 @@
   "license": "LGPL-2.1",
   "browser": "./lib/p5.min.js",
   "exports": {
-    "./": "./src/app.js",
+    ".": "./src/app.js",
     "./core": "./src/core/main.js",
     "./shape": "./src/shape/index.js",
     "./accessibility": "./src/accessibility/index.js",
