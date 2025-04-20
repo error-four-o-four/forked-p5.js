@@ -4,10 +4,10 @@ import { string } from 'rollup-plugin-string';
 import commonjs from '@rollup/plugin-commonjs';
 import terser from '@rollup/plugin-terser';
 import pkg from './package.json' with { type: 'json' };
-import dayjs from 'dayjs';
 import { visualizer } from 'rollup-plugin-visualizer';
 import replace from '@rollup/plugin-replace';
 import alias from '@rollup/plugin-alias';
+import { createBanner } from './utils/banner.mjs';
 
 const plugins = [
   commonjs(),
@@ -23,7 +23,7 @@ const plugins = [
     preventAssignment: true
   })
 ];
-const banner = `/*! p5.js v${pkg.version} ${dayjs().format('MMMM D, YYYY')} */`;
+const banner = createBanner(pkg.version);
 const bundleSize = (name, sourcemap) => {
   return visualizer({
     filename: `analyzer/${name}.html`,
@@ -76,7 +76,7 @@ const generateModuleBuild = () => {
       plugins: [
         ...plugins
       ]
-    }
+    };
   });
 };
 
